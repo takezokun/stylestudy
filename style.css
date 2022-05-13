@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(red, blue, purple);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    color: white;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: black;
+    padding: 15px;
+}
+
+.s1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+.nome{
+    padding: 15px;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cad{
+    text-align: center;
+    
+}
+
+.cad input{
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+} 
+
+button{
+    padding: 10px;
+    background-color: black;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+
+}
+
+.capa{
+    width: 20%;
+    padding: 15px;
+    
+}
+
+.capa img{
+    width: 100%;
+}
+
+.s2{
+    background-color: black;
+    padding: 20px;
+    width: 75%;
+    box-shadow: 1px 1px 20px black;
+    margin: auto;
+    border-top: 20px;
+    transition: 2s;
+}
+
+.s2:hover{
+    background: white;
+    color: black;
+    box-shadow:  1px 1px 20px pink;
+}
+
+.s3{
+    background-color: black;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 1px 1px 20px black;
+    transition: 2s;
+}
+
+.s3:hover{
+    background: white;
+    color: black;
+    box-shadow:  1px 1px 20px pink;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    margin: 30px;
+    
+}
+
+.links ul li{
+    background-color: black;
+    padding: 10px;
+ 
+}
+
+.aaa:hover{
+    background: linear-gradient(orange, yellow)
+}
+
+.s5{
+    background: linear-gradient(45deg, red, green, yellow);
+    text-align: justify;
+    width: 50%;
+    padding: 30px;
+    border: 30px;
+    margin: auto;
+    box-shadow: 1px 1px 50px black;
+    transition: 2s;
+}
+
+.s5 h1{
+    text-shadow: 1px 1px 5px palevioletred;
+
+}
+
+.s5:hover{
+    background: black;
+    box-shadow: 5px 5px 100px greenyellow;
+}
+
+nav{
+    border-top: 1px solid white;
+    padding: 5px;
+}
+
+.rodape{
+    padding: 30px;
+    margin-top: 50px;
+    background-color: black;
+}
